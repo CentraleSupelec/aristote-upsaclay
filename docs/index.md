@@ -1,5 +1,4 @@
-# Bienvenue sur le site du projet Aristote.
-
+# Aristote@UPSaclay vous souhaite la bienvenue
 Lors de la conférence IA & Education des 8 et 9 juin 2023, un [prototype de l'application Aristote](https://webtv.centralesupelec.fr/videos/aristote/) a été présenté.
 Il répondait aux attentes des étudiants en rendant les vidéo plus facile à utiliser pour leurs révisions.
 
