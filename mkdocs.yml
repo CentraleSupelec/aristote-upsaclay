@@ -23,5 +23,5 @@ markdown_extensions:
 
 nav:
   - "Présentation": "index.md"
-  - "Utilisation du service": "utilisation_service.md"
-  - "Opensource": "opensource.md"
+  - "AristoQuiz": "AristoQuiz.md"
+  - "AristoTchat": "AristoTchat.md"
