@@ -1,11 +1,12 @@
 # Présentation
-Né d’un projet étudiant mené à CentraleSupélec et pensé pour évoluer avec le concours de l’ensemble de l’environnement universitaire francophone, Aristote met l'intelligence artificielle au service de l'enseignement.
-Le projet Aristote est publié en opensource et basé sur des LLM libres (Llama 3), hébergés en France et garants de la sécurité de vos données.
-CentraleSupélec met à disposition de l’ensemble des acteurs de l’ESR deux outils souverains :
 
-|[AristoQuiz](https://portail.aristote.education/)|[AristoTchat](https://chat.aristote.education/)|
+Le projet Aristote, publié en opensource et basé sur des LLM libres, hébergés en France et garants de la sécurité de vos données, vous propose des outils souverains adaptés à vos différents besoins.
+
+
+|Vous voulez...|L’outil qu’il vous faut |
 |:-----:|:-----:|
-|Enrichissez vos ressources vidéo ou audio pour créer des supports pédagogiques accessibles et engageants, ou générez des comptes-rendus de réunion|Utilisez ce chat interactif basé sur OpenWebUI pour challenger et construire votre contenu pédagogique et administratif|
+|- Générer et traduire des sous-titres pour une vidéo de cours <br>- Obtenir des quiz d ’auto-évaluation à partir d’une vidéo de cours et les exporter vers d’autres plateformes <br>- Automatiser la prise de notes de l’enregistrement d’une réunion|[AristoQuiz](https://portail.aristote.education/)|
+|- Résumer un fil de mail <br>- Reformuler un mail technique pour un public non-initié <br>- Evaluer l’accessibilité et la lisibilité d’un document de cours <br>- Aider vos élèves à accéder plus rapidement à l’essentiel du cours <br>- Inventer de nouveaux usages pour notre IA conversationnelle|[AristoTchat](https://chat.aristote.education/)|
 
 ## Accès aux plateformes
 Le portail AristoQuiz et AristoTchat sont accessibles à l’ensemble des membres de l’ESR grâce à l’authentification depuis la fédération d’identité
