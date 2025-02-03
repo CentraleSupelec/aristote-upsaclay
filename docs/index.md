@@ -14,4 +14,4 @@ Le portail AristoQuiz et AristoTchat sont accessibles à l’ensemble des membre
 * https://portail.aristote.education/
 * https://chat.aristote.education/
 
-![etapes de connexion](docs/assets/connexion-federation.gif)
+![etapes de connexion](assets/connexion-federation.gif)
