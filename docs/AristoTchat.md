@@ -4,7 +4,7 @@ Le chatbot AristoTchat peut être utilisé pour vous assister dans vos usages pr
 
 
 ## Comment utiliser AristoTchat ?
-En vous connectant sur https://chat.aristote.education/  avec la fédération d’identité, commencez à échanger avec AristoTchat, en choisissant les modalités de ces échanges :
+En vous connectant sur https://chat.aristote.education/ avec la fédération d’identité, commencez à échanger avec AristoTchat, en choisissant les modalités de ces échanges :
 
 * Demandez à AristoTchat de faire des recherches sur Internet pour vous répondre
 * Importez un PDF directement dans le chat pour qu’AristoTchat en tienne compte dans vos échanges
@@ -20,7 +20,6 @@ Les cas d’usages d’AristoTchat sont nombreux, variés et encore à inventer 
 
 
 ## Confidentialité et sécurité des données
-AristoTchat est basé sur une IA souveraine : OpenWebUI. Les données traitées sont opérées en France.
-
+AristoTchat est basé sur une IA souveraine (un modèle d’IA libre hébergé en France).
 Grâce à l’option « Chat éphémère », vous pouvez choisir de ne pas sauvegarder vos échanges avec l’IA, ni dans votre historique AristoTchat ni dans la base de données.
-
+Vous gardez la maîtrise de vos données : vous pouvez choisir de les supprimer à tout moment ou de partager vos conversations avec d’autres personnes.
