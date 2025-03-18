@@ -13,6 +13,7 @@ Vous pouvez choisir d’importer directement un fichier audio ou vidéo depuis v
 
 
 
+
 ## Complétez vos ressources avec les métadonnées et transcriptions
 
 Générez automatiquement des métadonnées qui viendront compléter votre vidéo ou audio de cours : titre, description, discipline, nature du média, sujets abordés, ...
@@ -29,9 +30,11 @@ Avec le traitement « Quiz », Aristote génère un ensemble de questions à cho
 Ces quiz sont modifiables (ajout/suppression/modification de questions), et exportables pour une exploitation dans une plateforme d’apprentissage en ligne (comme Moodle)
 
 
+
 ## Générez des comptes-rendus de réunion
 
 En choisissant le type de traitement « Prise de notes », vous pouvez demander à Aristote générer une prise de notes et un compte-rendu pour un enregistrement audio ou vidéo de réunion.
+
 
 
 ## Conservez le contrôle sur les contenus générés par AristoQuiz : évaluez, modifiez et complétez les propositions de l’IA
@@ -43,7 +46,8 @@ Chaque contenu généré par AristoQuiz est conçu pour pouvoir être contrôlé
 * Editez, ajoutez ou supprimez des questions dans les QCM générés par Aristote
 * Générez plusieurs versions de chaque enrichissement
 
-![copie d'écran évaluation](evaluation.png)
+![copie d'écran évaluation](assets/evaluation.png)
+
 
 
 ## Confidentialité et sécurité des données
