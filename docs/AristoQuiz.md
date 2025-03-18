@@ -12,13 +12,15 @@ Vous pouvez choisir d’importer directement un fichier audio ou vidéo depuis v
   ![copie d'écran formulaire d'enrichissement](assets/formulaire-traitement-notes.PNG)
 
 
+
 ## Complétez vos ressources avec les métadonnées et transcriptions
 
 Générez automatiquement des métadonnées qui viendront compléter votre vidéo ou audio de cours : titre, description, discipline, nature du média, sujets abordés, ...
 
 Obtenez également des sous-titres pour votre contenu vidéo ou audio : Aristote génère des sous-titre dans la langue d’origine de la ressource, les traduit si la demande a été faite lors de la création de l’enrichissement, et met à votre disposition des fichiers téléchargeables, synchronisés avec votre ressource, et que vous pouvez importer dans vos outils de lecture de vidéo.
 
-![copie d'écran métadonnées](assets/metadonnées.PNG)
+![copie d'écran métadonnées](assets/metadonnees.png)
+
 
 ## Générez automatiquement des quiz pour l’évaluation et l’auto-évaluation de vos élèves
 
@@ -41,7 +43,7 @@ Chaque contenu généré par AristoQuiz est conçu pour pouvoir être contrôlé
 * Editez, ajoutez ou supprimez des questions dans les QCM générés par Aristote
 * Générez plusieurs versions de chaque enrichissement
 
-![copie d'écran évaluation](Evaluation.PNG)
+![copie d'écran évaluation](evaluation.png)
 
 
 ## Confidentialité et sécurité des données
