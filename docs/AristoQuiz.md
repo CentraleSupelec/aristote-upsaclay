@@ -9,7 +9,7 @@ Vous pouvez choisir d’importer directement un fichier audio ou vidéo depuis v
 * Génération de métadonnées et Quiz
 * Prise de notes
 
-  ![copie d'écran formulaire d'enrichissement](assets/Formulaire traitement notes.PNG)
+  ![copie d'écran formulaire d'enrichissement](assets/formulaire-traitement-notes.PNG)
 
 
 ## Complétez vos ressources avec les métadonnées et transcriptions
