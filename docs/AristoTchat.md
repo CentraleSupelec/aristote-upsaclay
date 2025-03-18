@@ -11,6 +11,7 @@ En vous connectant sur [https://chat.aristote.education/](https://chat.aristote.
 * Importez un PDF directement dans le chat pour qu’AristoTchat en tienne compte dans vos échanges
 * Posez simplement une question ou énoncez une consigne au chatbot
 
+
 Les cas d’usages d’AristoTchat sont nombreux, variés et encore à inventer :
 
 * A partir d’un pdf importé dans le chat, résumer, enrichir ou challenger un contenu
@@ -19,16 +20,10 @@ Les cas d’usages d’AristoTchat sont nombreux, variés et encore à inventer 
 * Résumer un fil de mail
 * ...
 
+![capture d'écran AristoTchat](assets/AristoTchat.png)
 
 ## Confidentialité et sécurité des données
 
-AristoTchat est basé sur une IA souveraine (un modèle d’IA libre hébergé en France).
-Grâce à l’option « Chat éphémère », vous pouvez choisir de ne pas sauvegarder vos échanges avec l’IA, ni dans votre historique AristoTchat ni dans la base de données.
-Vous gardez la maîtrise de vos données : vous pouvez choisir de les supprimer à tout moment ou de partager vos conversations avec d’autres personnes.
-
-
-
-## Confidentialité et sécurité des données
 AristoTchat est basé sur une IA souveraine (un modèle d’IA libre hébergé en France).
 Grâce à l’option « Chat éphémère », vous pouvez choisir de ne pas sauvegarder vos échanges avec l’IA, ni dans votre historique AristoTchat ni dans la base de données.
 Vous gardez la maîtrise de vos données : vous pouvez choisir de les supprimer à tout moment ou de partager vos conversations avec d’autres personnes.
