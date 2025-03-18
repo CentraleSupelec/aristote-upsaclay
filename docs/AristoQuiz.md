@@ -46,7 +46,7 @@ Chaque contenu généré par AristoQuiz est conçu pour pouvoir être contrôlé
 * Editez, ajoutez ou supprimez des questions dans les QCM générés par Aristote
 * Générez plusieurs versions de chaque enrichissement
 
-![copie d'écran évaluation](assets/evaluation.png)
+![copie d'écran évaluation](assets/evaluation.PNG)
 
 
 
