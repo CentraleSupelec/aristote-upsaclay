@@ -9,7 +9,7 @@ Le projet Aristote, publié en opensource et basé sur des LLM libres, hébergé
 |- Résumer un fil de mail <br>- Reformuler un mail technique pour un public non-initié <br>- Evaluer l’accessibilité et la lisibilité d’un document de cours <br>- Aider vos élèves à accéder plus rapidement à l’essentiel du cours <br>- Inventer de nouveaux usages pour notre IA conversationnelle|[AristoTchat](https://chat.aristote.education/)|
 
 ## Accès aux plateformes
-Le portail AristoQuiz et AristoTchat sont accessibles à l’ensemble des membres de l’ESR grâce à l’authentification depuis la fédération d’identité
+AristoTchat et le portail AristoQuiz sont accessibles à l’ensemble des membres de l’ESR grâce à l’authentification depuis la fédération d’identité
 
 * [https://portail.aristote.education/](https://portail.aristote.education/)
 * [https://chat.aristote.education/](https://chat.aristote.education/)
