@@ -11,7 +11,7 @@ Le projet Aristote, publié en opensource et basé sur des LLM libres, hébergé
 ## Accès aux plateformes
 AristoTchat et le portail AristoQuiz sont accessibles à l’ensemble des membres de l’ESR grâce à l’authentification depuis la fédération d’identité
 
-* [https://portail.aristote.education/](https://portail.aristote.education/)
 * [https://chat.aristote.education/](https://chat.aristote.education/)
+* [https://portail.aristote.education/](https://portail.aristote.education/)
 
 ![etapes de connexion](assets/connexion-federation.gif)
