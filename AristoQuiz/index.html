@@ -1,0 +1,535 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Aristote l'IA qui rend vos vidéos plus intelligentes en générant des quiz et bien plus encore">
+      
+      
+        <meta name="author" content="CentraleSupélec">
+      
+      
+        <link rel="canonical" href="https://portail.aristote.education/AristoQuiz/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../AristoTchat/">
+      
+      
+      <link rel="icon" href="../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>AristoQuiz - Projet Aristote</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#enrichissez-vos-ressources-pedagogiques-avec-aristoquiz" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Projet Aristote" class="md-header__button md-logo" aria-label="Projet Aristote" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Projet Aristote
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AristoQuiz
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Projet Aristote" class="md-nav__button md-logo" aria-label="Projet Aristote" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    Projet Aristote
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    AristoQuiz
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    AristoQuiz
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#completez-vos-ressources-avec-les-metadonnees-et-transcriptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complétez vos ressources avec les métadonnées et transcriptions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generez-automatiquement-des-quiz-pour-levaluation-et-lauto-evaluation-de-vos-eleves" class="md-nav__link">
+    <span class="md-ellipsis">
+      Générez automatiquement des quiz pour l’évaluation et l’auto-évaluation de vos élèves
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generez-des-comptes-rendus-de-reunion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Générez des comptes-rendus de réunion
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conservez-le-controle-sur-les-contenus-generes-par-aristoquiz-evaluez-modifiez-et-completez-les-propositions-de-lia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conservez le contrôle sur les contenus générés par AristoQuiz : évaluez, modifiez et complétez les propositions de l’IA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confidentialite-et-securite-des-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confidentialité et sécurité des données
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../AristoTchat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AristoTchat
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#completez-vos-ressources-avec-les-metadonnees-et-transcriptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complétez vos ressources avec les métadonnées et transcriptions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generez-automatiquement-des-quiz-pour-levaluation-et-lauto-evaluation-de-vos-eleves" class="md-nav__link">
+    <span class="md-ellipsis">
+      Générez automatiquement des quiz pour l’évaluation et l’auto-évaluation de vos élèves
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generez-des-comptes-rendus-de-reunion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Générez des comptes-rendus de réunion
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conservez-le-controle-sur-les-contenus-generes-par-aristoquiz-evaluez-modifiez-et-completez-les-propositions-de-lia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conservez le contrôle sur les contenus générés par AristoQuiz : évaluez, modifiez et complétez les propositions de l’IA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#confidentialite-et-securite-des-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confidentialité et sécurité des données
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="enrichissez-vos-ressources-pedagogiques-avec-aristoquiz">Enrichissez vos ressources pédagogiques avec AristoQuiz</h1>
+<p>Le portail AristoQuiz vous permet d’importer des vidéos et audios de cours, conférence ou réunion, pour en enrichir le contenu.</p>
+<p>Pour créer des enrichissements avec AristoQuiz, connectez-vous sur <a href="https://portail.aristote.education/">https://portail.aristote.education/</a> avec la fédération d’identité et choisissez « Créer un enregistrement »</p>
+<p>Vous pouvez choisir d’importer directement un fichier audio ou vidéo depuis votre ordinateur, ou de fournir à Aristote le lien vers un fichier téléchargeable, puis choisir le type de traitement que vous souhaitez obtenir pour commencer le traitement de l’enrichissement. Deux usages sont actuellement disponibles :</p>
+<ul>
+<li>Génération de métadonnées et Quiz</li>
+<li>Prise de notes</li>
+</ul>
+<p><img alt="copie d'écran formulaire d'enrichissement" src="../assets/formulaire-traitement-notes.PNG" /></p>
+<h2 id="completez-vos-ressources-avec-les-metadonnees-et-transcriptions">Complétez vos ressources avec les métadonnées et transcriptions</h2>
+<p>Générez automatiquement des métadonnées qui viendront compléter votre vidéo ou audio de cours : titre, description, discipline, nature du média, sujets abordés, ...</p>
+<p>Obtenez également des sous-titres pour votre contenu vidéo ou audio : Aristote génère des sous-titre dans la langue d’origine de la ressource, les traduit si la demande a été faite lors de la création de l’enrichissement, et met à votre disposition des fichiers téléchargeables, synchronisés avec votre ressource, et que vous pouvez importer dans vos outils de lecture de vidéo.</p>
+<p><img alt="copie d'écran métadonnées" src="../assets/metadonnees.png" /></p>
+<h2 id="generez-automatiquement-des-quiz-pour-levaluation-et-lauto-evaluation-de-vos-eleves">Générez automatiquement des quiz pour l’évaluation et l’auto-évaluation de vos élèves</h2>
+<p>Avec le traitement « Quiz », Aristote génère un ensemble de questions à choix multiples issues du contenu de votre fichier, pour fournir à vos élèves un support d’auto-évaluation.</p>
+<p>Ces quiz sont modifiables (ajout/suppression/modification de questions), et exportables pour une exploitation dans une plateforme d’apprentissage en ligne (comme Moodle)</p>
+<h2 id="generez-des-comptes-rendus-de-reunion">Générez des comptes-rendus de réunion</h2>
+<p>En choisissant le type de traitement « Prise de notes », vous pouvez demander à Aristote générer une prise de notes et un compte-rendu pour un enregistrement audio ou vidéo de réunion.</p>
+<h2 id="conservez-le-controle-sur-les-contenus-generes-par-aristoquiz-evaluez-modifiez-et-completez-les-propositions-de-lia">Conservez le contrôle sur les contenus générés par AristoQuiz : évaluez, modifiez et complétez les propositions de l’IA</h2>
+<p>Chaque contenu généré par AristoQuiz est conçu pour pouvoir être contrôlé et modifié par l’intervention des enseignants :</p>
+<ul>
+<li>Participez à l’éducation d’Aristote en évaluant le contenu proposé par l’IA grâce à notre système de notation (positif/négatif) ou en ajoutant un commentaire pour développer votre évaluation</li>
+<li>Editez les métadonnées, les prises de notes et compte-rendu de réunion directement depuis le portail</li>
+<li>Editez, ajoutez ou supprimez des questions dans les QCM générés par Aristote</li>
+<li>Générez plusieurs versions de chaque enrichissement</li>
+</ul>
+<p><img alt="copie d'écran évaluation" src="../assets/evaluation.PNG" /></p>
+<h2 id="confidentialite-et-securite-des-donnees">Confidentialité et sécurité des données</h2>
+<ol>
+<li><strong>Hébergement sur serveurs souverains :</strong> Aristote est hébergé sur des serveurs souverains loués et exploités par CentraleSupélec chez OVH, garantissant ainsi la confidentialité et la protection de vos données.</li>
+<li><strong>Traitement et suppression des fichiers :</strong> Lorsque vous transmettez un fichier vidéo ou audio à Aristote, il n'en conserve une copie que le temps nécessaire pour le transcrire en texte. Une fois le traitement terminé, l'URL du fichier et le fichier lui-même sont supprimés et aucune sauvegarde n'est réalisée.</li>
+<li><strong>Suppression des enrichissements :</strong> Les fichiers contenant les enrichissements générés par Aristote sont supprimés dès que vous en faites la demande via l'interface utilisateur de votre application (un bouton "Supprimer" doit vous être proposé). Attention, une fois supprimés, il n'est plus possible de regénérer d'autres enrichissements, car la transcription du fichier a été effacée. Il est donc conseillé de ne cliquer sur le bouton "Supprimer" qu'une fois que vous n'avez plus besoin de regénérer des enrichissements.</li>
+<li><strong>Protection des données personnelles :</strong> Aristote ne reçoit pas de données personnelles de votre part. L'identifiant de l'utilisateur est anonymisé et utilisé uniquement à des fins statistiques pour mesurer l'impact (nombre d'utilisateurs finaux de la plateforme).</li>
+<li><strong>Pas de restriction d'usage des contenus générés :</strong> Vous restez maître de l'usage des contenus générés par Aristote.</li>
+<li><strong>Transparence du code :</strong> Le code d'Aristote est consultable sur <a href="https://github.com/CentraleSupelec">https://github.com/CentraleSupelec</a>, assurant ainsi une transparence totale sur son fonctionnement et son développement.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
